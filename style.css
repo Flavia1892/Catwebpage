@@ -309,27 +309,20 @@ details[open] summary {
     flex-direction: column;
 }
 
-.aha{
+.aha {}
 
-}
+.poz {}
 
-.poz{
+.cardu {}
 
-}
-
-.cardu{
-
-}
-
-.rowfooter{
-
-}
+.rowfooter {}
 
 /*Media Screen*/
 @media screen and (max-width:600px) {
-    body{
+    body {
         overflow-x: hidden;
     }
+
     .navbar {
         flex-direction: row;
         flex-wrap: wrap;
@@ -338,32 +331,34 @@ details[open] summary {
         font: 15px;
     }
 
-    .container{
+    .container {
         font-size: 20px;
         flex-direction: column;
     }
+
     .row {
         flex-direction: column;
     }
 
-    .bodyrow img{
+    .bodyrow img {
         max-height: 300px;
         max-width: 470px;
     }
 
-    .bodycol button{
+    .bodycol button {
         margin-bottom: 20px;
     }
 
-    .col img{
+    .col img {
         max-width: 450px;
         max-height: 300px;
     }
-    .col p{
+
+    .col p {
         font-size: 15px;
     }
 
-    .flexmic button{
+    .flexmic button {
         max-height: 30px;
         max-width: 150px;
         font-size: 15px;
@@ -373,68 +368,69 @@ details[open] summary {
         font-size: 15px;
     }
 
-    .card{
+    .card {
         max-width: 400px;
         font-size: 20px;
     }
 
-    .poz{
+    .poz {
         max-width: 150px;
-        max-height:200px;
+        max-height: 200px;
     }
 
-    .aha{
+    .aha {
         font-size: 5px;
     }
 
-    .cardu{
+    .cardu {
         font-size: 1px;
     }
-   .imgstyle{
-    max-width: 100px;
-    max-height: 150px;
-    padding:10px;
-   }
 
-   .containerpoze{
-    max-width: 400px;
-    margin-left: -140px;
-   }
-    
-   .carda{
-    max-width: 400px;
-   }
+    .imgstyle {
+        max-width: 100px;
+        max-height: 150px;
+        padding: 10px;
+    }
 
-   .rowfooter{
-    flex-direction: column;
-    text-align: left;
-   }
+    .containerpoze {
+        max-width: 400px;
+        margin-left: -140px;
+    }
 
-   .cardend{
-    text-align: left;
-    max-width: 400px;
-    
-   }
+    .carda {
+        max-width: 400px;
+    }
+
+    .rowfooter {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .cardend {
+        text-align: left;
+        max-width: 400px;
+
+    }
 }
 
 @media screen and (max-width:440px) {
-    .cardend{
+    .cardend {
         max-width: 350px;
     }
 
-    .carda{
+    .carda {
         max-width: 350px;
     }
 
-    h1{
+    h1 {
         font-size: 20px;
     }
 
-    .card{
+    .card {
         max-width: 350px;
     }
 
-    .aha{
+    .aha {
         font-size: 1px;
     }
 }
