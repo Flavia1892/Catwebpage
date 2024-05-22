@@ -309,3 +309,132 @@ details[open] summary {
     flex-direction: column;
 }
 
+.aha{
+
+}
+
+.poz{
+
+}
+
+.cardu{
+
+}
+
+.rowfooter{
+
+}
+
+/*Media Screen*/
+@media screen and (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 620px;
+        row-gap: 10px;
+        font: 15px;
+    }
+
+    .container{
+        font-size: 20px;
+        flex-direction: column;
+    }
+    .row {
+        flex-direction: column;
+    }
+
+    .bodyrow img{
+        max-height: 300px;
+        max-width: 470px;
+    }
+
+    .bodycol button{
+        margin-bottom: 20px;
+    }
+
+    .col img{
+        max-width: 450px;
+        max-height: 300px;
+    }
+    .col p{
+        font-size: 15px;
+    }
+
+    .flexmic button{
+        max-height: 30px;
+        max-width: 150px;
+        font-size: 15px;
+    }
+
+    .flexmic {
+        font-size: 15px;
+    }
+
+    .card{
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .poz{
+        max-width: 150px;
+        max-height:200px;
+    }
+
+    .aha{
+        font-size: 5px;
+    }
+
+    .cardu{
+        font-size: 1px;
+    }
+   .imgstyle{
+    max-width: 100px;
+    max-height: 150px;
+    padding:10px;
+   }
+
+   .containerpoze{
+    max-width: 400px;
+    margin-left: -140px;
+   }
+    
+   .carda{
+    max-width: 400px;
+   }
+
+   .rowfooter{
+    flex-direction: column;
+    text-align: left;
+   }
+
+   .cardend{
+    text-align: left;
+    max-width: 400px;
+    
+   }
+}
+
+@media screen and (max-width:440px) {
+    .cardend{
+        max-width: 350px;
+    }
+
+    .carda{
+        max-width: 350px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .card{
+        max-width: 350px;
+    }
+
+    .aha{
+        font-size: 1px;
+    }
+}
