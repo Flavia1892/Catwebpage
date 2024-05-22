@@ -142,7 +142,7 @@ a:hover {
 .card {
     width: 500px;
     height: 200px;
-    border: 5ps solid black;
+
 }
 
 .colnow {
@@ -151,6 +151,161 @@ a:hover {
     align-items: center;
 }
 
-#padding{
-    padding-top:120px;
+#padding {
+    padding-top: 120px;
 }
+
+.imgstyle {
+    width: 400px;
+    height: 500px;
+    padding: 0 40px;
+}
+
+.row4 {
+    background-color: white;
+    justify-content: center;
+}
+
+
+.containerpoze {
+    background-color: white;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: nowrap;
+    height: 200px;
+    width: 870px;
+    column-gap: 20px;
+    padding: 20px 80px;
+
+}
+
+.cardpoze {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    background-color: rgb(248, 239, 221);
+    width: 400px;
+    height: 150px;
+    font-size: 15px;
+
+}
+
+.cardpoze:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+    filter: brightness(90%);
+}
+
+.colpoze {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.scrismic {
+    font-size: 10px;
+}
+
+.carda {
+    width: 600px;
+    height: 200px;
+
+}
+
+.rowh {
+    height: 100px;
+}
+
+.row5 {
+    height: 150px;
+}
+
+.imgdescript {
+    border-radius: 20px;
+}
+
+div.gallery {
+    margin: 5px;
+
+    margin: auto;
+    width: 180px;
+    text-align: center;
+
+}
+
+div.gallery:hover {
+    opacity: 1.0;
+
+    background-color: rgb(248, 239, 221);
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+}
+
+/* Details*/
+summary {
+    font-weight: bold;
+    color: rgb(248, 239, 221);
+    background-color: olive;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details[open] {
+    padding-bottom: 10px;
+
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+
+}
+
+.rowfooter {
+    justify-content: space-around;
+}
+
+.text-centera {
+    text-align: center;
+}
+
+.cardend {
+    text-align: center;
+    width: 1000px;
+}
+
+.rowcenter {
+    justify-content: center;
+
+}
+
+.colcenter {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
